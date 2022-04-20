@@ -10,7 +10,7 @@
  - ## Heading <- 2. otsikko
  - [Link](http://google.com) <- Linkki
  - ![Image](https://commonmark.org/help/images/favicon.png) <- Kuva
- - -/* <- Lista
+ - `-/*` <- Lista
  -`Inline code` <- inline code 
  
  
