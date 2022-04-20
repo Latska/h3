@@ -24,16 +24,20 @@
 Aluksi teemme uuden repositoryn Githubiin:
 ![Image](https://i.imgur.com/MOCU1VN.png)
 "kloonataan" äsken luotu repository Githubista (Linkin saa Code -valikosta)
+
 ~$ git clone git@github.com:Latska/h3.git
 
 Liikutaan kloonattuun arkistoon:
+
 ~$ cd h3/cd 
 
 Tehdään tämä kyseinen raportti MarkDownina:
+
 ~/h3$ sudo nano h3versionhallinta.md 
 ![Image](https://i.imgur.com/eLLkIN1.png)
 
 Lisätään raporttitiedosto "alueelle":
+
 ~/h3$ git add h3versionhallinta.md 
 
 Commit -komennolla ns. vahvistetaan/kerrotaan tehdyt muutokset
@@ -41,6 +45,7 @@ Commit -komennolla ns. vahvistetaan/kerrotaan tehdyt muutokset
 ![Image](https://i.imgur.com/3tsCYpD.png)
 
 Pull & push -komennoilla saadaan vietyä muutokset repositoryyn:
+
 ~/h3$ git pull
 
 ~/h3$ git push\
