@@ -80,6 +80,19 @@ Pull&push:
 
 **b) Kaikki kirjataan. Näytä omalla git-varastollasi esimerkit komennoista ‘git log’, ‘git diff’ ja ‘git blame’. Selitä tulokset.**
 
+Git log-komennolla saadaan näkyviin tehtyjen muutosten "historia":
+
+![image](https://user-images.githubusercontent.com/103587811/164227184-2af853b2-e72e-4c1a-8b00-670212ecfad2.png)
+
+Git diff-komento ei tällä kertaa avautunut minulle.
+
+Git blame-komento kertoo, että kuka on muutoksen tehnyt ja milloin:
+![image](https://user-images.githubusercontent.com/103587811/164229473-0f322641-dac9-48cc-b68d-5968a5fa09fc.png)
+
+
+
+
+
 **c) Huppis! Tee tyhmä muutos gittiin, älä tee commit:tia. Tuhoa huonot muutokset ‘git reset --hard’. Huomaa, että tässä toiminnossa ei ole peruutusnappia.**
 
 **d) Formula. Tee uusi salt-tila (formula, moduli, infraa koodina). (Eli uusi tiedosto esim. /srv/salt/terontila/init.sls). Voit tehdä ihan yksinkertaisen parin funktion (pkg, file...) tilan, tai edistyneemmin asentaa ja konfiguroida minkä vain uuden ohjelman: demonin, työpöytäohjelman tai komentokehotteesta toimivan ohjelman. Käytä tarvittaessa ‘find -printf “%T+ %p\n”|sort’ löytääksesi uudet asetustiedostot.**
