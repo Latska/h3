@@ -20,6 +20,21 @@
 
 **a) MarkDown. Tee tämän tehtävän raportti MarkDownina. Helpointa on tehdä raportti GitHub-varastoon, jolloin md-päätteiset tiedostot muotoillaan automaattisesti. Tyhjä rivi tekee kappalejaon, risuaita ‘#’ tekee otsikon, sisennys merkitsee koodinpätkän.**
 
+Aluksi teemme uuden repositoryn Githubiin:
+![Image](https://i.imgur.com/MOCU1VN.png)
+"kloonataan" äsken luotu repository Githubista (Linkin saa Code -valikosta)
+~$ git clone git@github.com:Latska/h3.git
+
+Liikutaan kloonattuun arkistoon:
+~$ cd h3/cd 
+
+Tehdään tämä kyseinen raportti MarkDownina:
+~$ sudo nano h3versionhallinta.md 
+![Image](https://i.imgur.com/eLLkIN1.png)
+
+
+
+
 **b) Pull first. Tee useita muutoksia git-varastoosi. Tee muutama muutos, jossa yksi commit koskee useampaa tiedostoa. Anna hyvä kuvaukset (commit message), yksi englanninkielinen lause imperatiivissa (määräysmuodossa) "Add top level menu to Foobar synchronizer"**
 
 **b) Kaikki kirjataan. Näytä omalla git-varastollasi esimerkit komennoista ‘git log’, ‘git diff’ ja ‘git blame’. Selitä tulokset.**
