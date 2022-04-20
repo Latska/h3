@@ -2,19 +2,21 @@
 
  **z) Lue ja tiivistä artikkeli muutamalla ranskalaisella viivalla. Tässä z-alakohdassa ei tarvitse siis tehdä testejä tietokoneella.**
  
+ **Commonmark contributors: Markdown Reference (huomaa ainakin otsikot risuaidoilla, kappalejako tyhjällä rivillä, sisennys (tab) koodia, lista, linkki, kuva.**
+ 
  * Markdown on helppo keino muotoilla tekstiä, jotta se näyttää hyvältä kaikilla laitteilla. Se ei tee mitään ylimääräistä, kuten muuta kirjasinkokoa, vaan pelkät olennaiset asiat.
  * Hyviä esimerkkejä markdownista:
- - *Italic* <- kursivoitu teksti
- - **bold** <- lihavoitu teksti
- - ## Heading <- 1. otsikko
- - ### Heading <- 2. otsikko
- - [Link](http://google.com) <- Linkki
- - ![Image](https://commonmark.org/help/images/favicon.png) <- Kuva
+ - *Italic* * *<- kursivoitu teksti
+ - **bold** ** **<- lihavoitu teksti
+ - # Heading #<- 1. otsikko
+ - ## Heading ##<- 2. otsikko
+ - [Link](http://google.com) [Link]<- Linkki
+ - ![Image](https://commonmark.org/help/images/favicon.png) ![Image]<- Kuva
  - `-/*` <- Lista
  - `Inline codings` <- inline code 
  
  
-**Commonmark contributors: Markdown Reference (huomaa ainakin otsikot risuaidoilla, kappalejako tyhjällä rivillä, sisennys (tab) koodia, lista, linkki, kuva.**
+
 
 **a) MarkDown. Tee tämän tehtävän raportti MarkDownina. Helpointa on tehdä raportti GitHub-varastoon, jolloin md-päätteiset tiedostot muotoillaan automaattisesti. Tyhjä rivi tekee kappalejaon, risuaita ‘#’ tekee otsikon, sisennys merkitsee koodinpätkän.**
 
