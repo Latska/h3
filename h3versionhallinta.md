@@ -92,7 +92,7 @@ Git log-komennolla saadaan näkyviin tehtyjen muutosten "historia":
 
 ![image](https://user-images.githubusercontent.com/103587811/164227184-2af853b2-e72e-4c1a-8b00-670212ecfad2.png)
 
-Git diff-komento ei tällä kertaa avautunut minulle.
+git diff cached checks
 
 Git blame-komento kertoo, että kuka on muutoksen tehnyt ja milloin:
 ![image](https://user-images.githubusercontent.com/103587811/164229473-0f322641-dac9-48cc-b68d-5968a5fa09fc.png)
