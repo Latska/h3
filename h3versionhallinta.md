@@ -95,6 +95,18 @@ Git blame-komento kertoo, että kuka on muutoksen tehnyt ja milloin:
 
 **c) Huppis! Tee tyhmä muutos gittiin, älä tee commit:tia. Tuhoa huonot muutokset ‘git reset --hard’. Huomaa, että tässä toiminnossa ei ole peruutusnappia.**
 
+Tehdään tyhmiä muutoksia tähän kyseiseen raporttiin:\
+~/h3$ nano h3versionhallinta.md\ 
+~/h3$ git add h3versionhallinta.md\
+Tarkistetaan, että muutokset ovat menneet läpi:\
+~/h3$ nano h3versionhallinta.md\
+Tuhotaan tyhmät muutokset resetillä:\
+~/h3$ git reset --hard\
+HEAD is now at e6ee3d9 Update h3versionhallinta.md\
+Ja varmistetaan vielä, että muutokset on tuhottu:
+~/h3$ nano h3versionhallinta.md \
+
+
 **d) Formula. Tee uusi salt-tila (formula, moduli, infraa koodina). (Eli uusi tiedosto esim. /srv/salt/terontila/init.sls). Voit tehdä ihan yksinkertaisen parin funktion (pkg, file...) tilan, tai edistyneemmin asentaa ja konfiguroida minkä vain uuden ohjelman: demonin, työpöytäohjelman tai komentokehotteesta toimivan ohjelman. Käytä tarvittaessa ‘find -printf “%T+ %p\n”|sort’ löytääksesi uudet asetustiedostot.**
 
 **f) Vapaaehtoinen: Laita srv/salt/ gittiin. Tee uusi moduli. Kloonaa varastosi toiselle koneelle (tai poista srv/salt ja palauta se kloonaamalla) ja jatka sillä.**
