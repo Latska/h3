@@ -30,9 +30,27 @@ Liikutaan kloonattuun arkistoon:
 ~$ cd h3/cd 
 
 Tehdään tämä kyseinen raportti MarkDownina:
-~$ sudo nano h3versionhallinta.md 
+~/h3$ sudo nano h3versionhallinta.md 
 ![Image](https://i.imgur.com/eLLkIN1.png)
 
+Lisätään raporttitiedosto "alueelle":
+~/h3$ git add h3versionhallinta.md 
+
+Commit -komennolla ns. vahvistetaan/kerrotaan tehdyt muutokset
+~/h3$ git commit
+![Image](https://i.imgur.com/3tsCYpD.png)
+
+Pull & push -komennoilla saadaan vietyä muutokset repositoryyn:
+~/h3$ git pull
+
+~/h3$ git push\
+Counting objects: 3, done.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 298 bytes | 33.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To github.com:Latska/h3.git
+   7696b3a..6d27ca4  main -> main
 
 
 
