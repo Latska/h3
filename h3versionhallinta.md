@@ -56,6 +56,28 @@ To github.com:Latska/h3.git
 
 **b) Pull first. Tee useita muutoksia git-varastoosi. Tee muutama muutos, jossa yksi commit koskee useampaa tiedostoa. Anna hyvä kuvaukset (commit message), yksi englanninkielinen lause imperatiivissa (määräysmuodossa) "Add top level menu to Foobar synchronizer"**
 
+Tehdään muutoksia varastoon (lisätään parit tiedostot) 
+
+![image](https://user-images.githubusercontent.com/103587811/164225585-a3e9432f-8be7-4657-bcf5-6ba5d7de3672.png)
+
+~/h3$ git add README.md 
+
+~/h3$ git add h3ipsum.md 
+
+~/h3$ git add h3testings.md 
+
+
+Commit message:
+
+![image](https://user-images.githubusercontent.com/103587811/164225842-b8470efb-a07f-4034-aa60-642e0c2bf025.png)
+
+Pull&push:
+
+~/h3$ git pull
+
+~/h3$ git push
+
+
 **b) Kaikki kirjataan. Näytä omalla git-varastollasi esimerkit komennoista ‘git log’, ‘git diff’ ja ‘git blame’. Selitä tulokset.**
 
 **c) Huppis! Tee tyhmä muutos gittiin, älä tee commit:tia. Tuhoa huonot muutokset ‘git reset --hard’. Huomaa, että tässä toiminnossa ei ole peruutusnappia.**
