@@ -4,13 +4,13 @@
  
  * Markdown on helppo keino muotoilla tekstiä, jotta se näyttää hyvältä kaikilla laitteilla. Se ei tee mitään ylimääräistä, kuten muuta kirjasinkokoa, vaan pelkät olennaiset asiat.
  * Hyviä esimerkkejä markdownista:
- - *Italic* <- kursivoitu teksti
- - **bold** <- lihavoitu teksti
- - # Heading <- 1. otsikko
- - ## Heading <- 2. otsikko
+ - * *Italic* * <- kursivoitu teksti
+ - ****bold**** <- lihavoitu teksti
+ - ## Heading <- 1. otsikko
+ - ### Heading <- 2. otsikko
  - [Link](http://google.com) <- Linkki
  - ![Image](https://commonmark.org/help/images/favicon.png) <- Kuva
- - `-/*` <- Lista
+ - `-/*` <- Lista\
  -`Inline code` <- inline code 
  
  
