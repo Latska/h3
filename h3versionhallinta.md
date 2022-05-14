@@ -121,3 +121,14 @@ Ja varmistetaan vielä, että muutokset on tuhottu:
 
 **e) Vapaaehtoinen: Omaa koiranruokaa. Säädä jotain käyttämääsi konetta Saltilla.**
 
+
+Lähteet:
+
+Tero Karvinen - Configuration management systems 2022
+https://terokarvinen.com/2021/configuration-management-systems-2022-spring/
+
+Tero Karvinen - Publish Your Project with GitHub
+https://terokarvinen.com/2016/publish-your-project-with-github/?fromSearch=git
+
+CommonMark
+https://commonmark.org/help/
