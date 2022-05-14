@@ -117,6 +117,34 @@ Ja varmistetaan vielä, että muutokset on tuhottu:
 
 **d) Formula. Tee uusi salt-tila (formula, moduli, infraa koodina). (Eli uusi tiedosto esim. /srv/salt/terontila/init.sls). Voit tehdä ihan yksinkertaisen parin funktion (pkg, file...) tilan, tai edistyneemmin asentaa ja konfiguroida minkä vain uuden ohjelman: demonin, työpöytäohjelman tai komentokehotteesta toimivan ohjelman. Käytä tarvittaessa ‘find -printf “%T+ %p\n”|sort’ löytääksesi uudet asetustiedostot.**
 
+Aloitetaan teemällä uusi kansio 'squid':
+![image](https://user-images.githubusercontent.com/103587811/168426937-ad05f878-85b7-4e0b-9f5e-7025bfb39320.png)
+
+Squid on avoimen lähdekoodin proxy server (välityspalvelin?), jolla voi kikkailla kaiken näköistä. Ajattelin hyödyntää tätä myöhemmin H7 -loppuprojektissa:
+
+Luodaan tilafunktio:
+![image](https://user-images.githubusercontent.com/103587811/168427021-8c05af05-3e66-4351-92e7-991c3b768f09.png)
+
+Ja ajetaan:
+![image](https://user-images.githubusercontent.com/103587811/168427077-59ff9cf9-4b86-4fde-9ae4-790db0c89c53.png)
+
+Testataan vielä onko idempotentti:
+
+![image](https://user-images.githubusercontent.com/103587811/168427084-f1d18eb2-e270-4e51-b0e6-519f4a9faa99.png)
+
+Lisätään vielä service.running -funktio, joka määrittää, että squid käynnistyy, mikäli se ei ole käynnissä.
+![image](https://user-images.githubusercontent.com/103587811/168427262-4e3bba22-466d-4607-85b6-9e8878dadb41.png)
+
+Ja vielä viimeinen testi:
+![image](https://user-images.githubusercontent.com/103587811/168427541-2350337d-d6b8-48df-ae48-513d8c1ef23f.png)
+
+Näyttäisi toimivan, tästä on hyvä jatkaa.
+
+
+
+
+
+
 **f) Vapaaehtoinen: Laita srv/salt/ gittiin. Tee uusi moduli. Kloonaa varastosi toiselle koneelle (tai poista srv/salt ja palauta se kloonaamalla) ja jatka sillä.**
 
 **e) Vapaaehtoinen: Omaa koiranruokaa. Säädä jotain käyttämääsi konetta Saltilla.**
@@ -132,3 +160,10 @@ https://terokarvinen.com/2016/publish-your-project-with-github/?fromSearch=git
 
 CommonMark
 https://commonmark.org/help/
+
+Salt Stack docs
+https://salt-zh.readthedocs.io/en/latest/ref/states/all/salt.states.service.html
+
+Squid Proxy installation:
+www.squid-cache.org
+
